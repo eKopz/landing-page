@@ -10277,6 +10277,10 @@ a.text-dark:hover, a.text-dark:focus {
 	position:absolute;
 }
 
+.pricing-list {
+	margin : 10px
+}
+
 .footer-caption {
 	padding-top:50px;
 	padding-bottom:50px;
