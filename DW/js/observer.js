@@ -2,15 +2,17 @@ const mainav = document.querySelector('.main-nav');
 const head = document.querySelector('#header');
 
 const about = document.querySelector('#about');
-const navitem = document.querySelectorAll(".nav-item")
+const navitem = document.querySelectorAll(".nav-item");
 
 const pricing = document.querySelector('#pricing');
+const feedback=document.querySelector('#feedback')
 
 const jumboptions = {
     root: null,
     threshold : 0,
     rootMargin : "-75px"
 };
+
 
 
 const jumbObs = new IntersectionObserver(function
@@ -66,6 +68,8 @@ const aboutObserver = new IntersectionObserver(function
 
 aboutObserver.observe(about);
 
+
+
 const pricingObserver = new IntersectionObserver(function
     (entries, pricingObserver){
     entries.forEach(entry => {
@@ -75,15 +79,26 @@ const pricingObserver = new IntersectionObserver(function
 			navitem.item(2).classList.remove("active")
 		}else{
 			navitem.item(2).classList.add("active")
-			/*entry.target.classList.remove('fade-out');
-			entry.target.classList.add('fade-in');
-			entry.target.style.opacity ="1";*/
 		}
     });
 },appearOptions);
 
 pricingObserver.observe(pricing);
 
+const feedbackObserver = new IntersectionObserver(function
+    (entries, feedbackObserver){
+    entries.forEach(entry => {
+		
+        console.log(entry)
+		if(!entry.isIntersecting){
+			navitem.item(3).classList.remove("active")
+		}else{
+			navitem.item(3).classList.add("active")
+		}
+    });
+},appearOptions);
+
+feedbackObserver.observe(feedback)
 
 /*
 const options = {

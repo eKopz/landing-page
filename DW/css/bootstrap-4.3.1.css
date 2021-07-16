@@ -2637,15 +2637,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-light {
-  color: #212529;
+  color: #1D4935;
+	font-weight: 1000;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  border-color: #1D4935;
 }
 
 .btn-light:hover {
   color: #212529;
   background-color: #e2e6ea;
-  border-color: #dae0e5;
+  border-color: #1D4935;
 }
 
 .btn-light:focus, .btn-light.focus {
@@ -10279,6 +10280,21 @@ a.text-dark:hover, a.text-dark:focus {
 
 .pricing-list {
 	margin : 10px
+}
+
+.iframe-container{
+  position: relative;
+  width: 80%;
+  padding-bottom: 50%;
+	margin:auto;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .footer-caption {
