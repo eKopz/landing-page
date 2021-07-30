@@ -18,6 +18,7 @@ window.onload = function() {
 		$("#pengguna-aktif").html(pegguna_aktif );
         $("#koperasi").html(data_koperasi);
 		$("#wilayah").html(data_wilayah);
+		$('.download').attr("href",data.data.android);
 		console.log(data)
 		arr_koperasi.forEach(function(value, index, array){
 			opt += "<option value=\"" + Number(value.id) +"\">"+ value.jenis + "</option>";
