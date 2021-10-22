@@ -1,524 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	 <link href="images/Logoputih-01.png" rel="icon">
+    <link href="images/Logoputih-01.png" rel="icon">
     <title>eKopz - #KoperasiMasaKini</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800"
+      rel="stylesheet">
   </head>
   <body>
-				
-  <nav class="navbar navbar-expand-sm navbar-light bg-white main-nav sticky-top border-white">
-	  <a class="navbar-brand" href="https://ekopz.id/"><img src="images/logoekopz-01.png" alt="logo kecil" data-src="images/logoekopz-01.png" id="navbar-logo" style="width:100px"></a>
-       	<button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-       	<span class="navbar-toggler-icon"></span>
-       	</button>
-       	<div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
-			  <ul class="navbar-nav mr-auto">
-				  
-				 <li class="nav-item">
-					<a class="nav-link" href="https://ekopz.id/" >Home <span class="sr-only">(current)</span></a>
-				 </li>
-			    <li class="nav-item active"> <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a> </li>
-				 
-				 
-				 <li class="nav-item dropdown active">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Features
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					   <a class="dropdown-item" href="#kopmart">KopMart (Cooming Soon)</a>
-					   <a class="dropdown-item" href="#kopnews">KopNews (Coming Soon)</a>
-					   <a class="dropdown-item" href="https://seller.ekopz.id/">Kelola Toko</a>
-					   <a class="dropdown-item" href="https://koperasi.ekopz.id/">Kelola Pengurus</a>
-						<hr class="dropdown-divider">
-					   <a class="dropdown-item" href="#">Career</a>
-				   </div>
-			    </li>
-				  
-			  </ul>
-	     </div>
-	  </nav>
-<!-- Modal -->
-	  <div class="modal show" id="more" tabindex="-1" role="dialog" aria-labelledby="more" aria-hidden="true">
-  		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				  <div class="modal-header">
-					<h5 class="modal-title font-weight-bold" >About us</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>
-				  <div class="modal-body">
-					Cooperatives are well known and have helped many people in Indonesia, which were formed with the same purpose with the principle of kinship and the spirit of cooperation. 
-					<br><br>
-					But they began to be abandoned and forgotten. Compete with increasingly sophisticated online banking and lending systems. eKopz here to embrace cooperatives in Indonesia with the mission of digitizing and collaboration between cooperatives. 
-					<br><br>
-
-					Because we believe cooperatives can help and prosper more people and SMEs in Indonesia. Because generation Z and beyond have the right to know, cooperatives exist and feel the positive impact.
-				  </div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				  </div>
-			</div>
-		</div>
-	</div>
-	  <div class="container">
-    <header class="row bg-white" style="padding-top: 15%;padding-bottom: 15%" id="header">
-		<div class="offset-md-1 col-md-4">
-			<div class="tersier text-center">
-				<img alt="phone" src="images/mainui-e.png" style="height: 350px; margin-top:25px; object-fit: cover;">
-			</div>
-		</div>
-		<div class="col-md-6  offset-md-1 py-2">
-			<div id="captions">
-			<h1 class="font-weight-bold" id="header-caption">About us
-			</h1>
-			<br>
-		   <p class="lead" style="font-weight: 500" id="the-caption">
-	       Cooperatives are well known and have helped many people in Indonesia, which were formed with the same purpose with the principle of kinship and the spirit of cooperation. </p>
-			<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#more">
-  					See more..
-			</button>
-			
-			</div>
-		</div>
-			
-		<!--
-		<div class="col-xl-5 offset-md-2" style="margin-top:auto;margin-bottom: auto;">
-			
-			<div id="captions" class="fade-in">
-			<h1 class="font-weight-bold" id="header-caption">#KoperasiMasaKini
-			</h1>
-			<br>
-		   <p class="lead" style="font-weight: 500" id="the-caption">
-	       Kini koperasi dapat diakses dengan mudah, aman, dan dimana saja.<br>
-	       Yu, gabung bersama kami! </p>
-			</div>
-		   <p class="lead">
-			  <a class="btn btn-primary btn-md" href="#pricing" role="button" style="border-radius:30px">Daftarkan koperasimu</a>
-				<a class="btn btn-light btn-md download" href="#" role="button" style="border-radius:30px">Download Sekarang</a>
-			   <!--<a href="http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width:160px"></a>
-			   <!--<a href="#"><img alt="Download on the App Store" src="images/Download_on_the_App_Store_Badge_ID_RGB_blk_100317.svg" style="width:140px"></a>
-	      </p>
-		</div>
-		<div class="col-xl-4  text-center offset-lg-0">
-			<img alt="phone left" src="images/kopnews.png" data-src="images/kopnews.png" style="height: 175px;" id="left-phone" class="phone" onClick="switchPhoneLeft()">
-			<img alt="phone center" src="images/mainui-e.png" data-src="images/mainui-e.png" style="height: 350px;" id="center-phone" class="phone">
-			<img alt="phone right" src="images/kopmart-e.png" data-src="images/kopmart-e.png" style="height: 175px;" id="right-phone" class="phone" onClick="switchPhoneRight()">
-		</div>
-				 
-		<!--
-		   <h1 style="font-size:300%;font-weight: 800">#KoperasiMasaKini</h1>
-		   <p class="lead" style="font-weight: 500">Kini koperasi dapat diakses dengan mudah, aman, dan dimana saja.</p>
-		   <p class="lead">
-			  <a class="btn btn-primary btn-lg" href="#" role="button">Daftarkan koperasimu</a>
-	      </p>-->
-    </header>
-	  </div>
-	<main >
-		<div style="padding-top:55px;padding-bottom:50px;background: #E8F1EF">
-		 <div class="container">
-			<div class="row text-center">
-				<div class="col-lg-6 offset-lg-3 text-center" ><h1 class="font-weight-bold">Milestones</h1>
-				<p>This is where our journey begins</p></div>
-			</div>
-			<div class="row align-content-center mt-3">
-				<div class="col-md-4 offset-md-1">
-					H
-				</div>
-				<div class="col-md-6 offset-md-1">
-					<h3 class="font-weight-bold">2019 - Ideation
-					</h3>
-				   <p class="lead" style="font-weight: 500; font-size:14px" >
-				   This student startup started with brainstorming by 3 main founders of eKopz. The research was then carried out on target users from eKopz including several cooperatives to the Bandung City Cooperative Office. The eKopz team also validated by participating in several business competitions for feedback from professional mentors in their fields.
-					</p>
-				</div>
-			</div> 
-	  	</div>
-		</div>
-		<div style="padding-top:55px;padding-bottom:50px;background: #D8E7E3">
-		 <div class="container">
-			<div class="row align-content-center">
-				<div class="col-md-4 offset-md-1">
-					H
-				</div>
-				<div class="col-md-6 offset-md-1">
-					<h3 class="font-weight-bold">2020 - Developing
-					</h3>
-				   <p class="lead" style="font-weight: 500; font-size:14px" >
-				   Minimum Viable Product eKopz found! The team started prototyping and testing several testers from the cooperative management and the general public. Next, the journey of developing a prototype into complete software begins.
-					</p>
-				</div>
-			</div> 
-	  </div>
-		</div>	
-	  	<div style="padding-top:55px;padding-bottom:50px;background: #CCDFDB">
-		 <div class="container">
-			<div class="row align-content-center">
-				<div class="col-md-4 offset-md-1">
-					H
-				</div>
-				<div class="col-md-6 offset-md-1">
-					<h3 class="font-weight-bold">2021 - Launching
-					</h3>
-				   <p class="lead" style="font-weight: 500; font-size:14px" >
-				   eKopz meets the first cooperative partner, GIAT Cooperative! The application demo was carried out with the administrators to get feedback and adjust feature requirements for our first partner cooperative. We also invited the cooperation discussion meeting with the Bandung Regency Cooperatives and SMEs Service who were interested in our products.
-					</p>
-				</div>
-			</div> 
-	  </div>
-		</div>	
-	  	<div style="padding-top:55px;padding-bottom:50px;background: #BBD2CD">
-		 <div class="container">
-			<div class="row align-content-center">
-				<div class="col-md-4 offset-md-1">
-					H
-				</div>
-				<div class="col-md-6 offset-md-1">
-					<h3 class="font-weight-bold">2022 - More Users, More Services
-					</h3>
-				   <p class="lead" style="font-weight: 500; font-size:14px" >
-				   This year eKopz plans that there will be 50 new cooperative partners registered to go digital with eKopz. Not only that, the MSME support and cooperative services for students are expected to be immediately felt by more people.
-					</p>
-				</div>
-			</div> 
-	  </div>
-		</div>	
-	  	<div style="padding-top:55px;padding-bottom:50px;background: #ADCCC5">
-		 <div class="container">
-			<div class="row align-content-center">
-				<div class="col-md-4 offset-md-1">
-					H
-				</div>
-				<div class="col-md-6 offset-md-1">
-					<h3 class="font-weight-bold">2023 - Soon to be Super Cooperative Apps
-					</h3>
-				   <p class="lead" style="font-weight: 500; font-size:14px" >
-				   In 2023 eKopz plans to develop a cooperative digital wallet feature to realize a cooperative experience that can be accessed securely, anytime, and anywhere.
-					</p>
-				</div>
-			</div> 
-	  </div>
-		</div>	
-	  	
-		<div style="padding-top:55px;padding-bottom:50px;">
-		 <div class="container">
-			<div class="row text-center">
-				<div class="col-lg-6 offset-lg-3 text-center" ><h1 class="font-weight-bold">Main Missions</h1>
-				<p></p></div>
-			</div>
-			<div class="row align-content-center mt-3 mb-5">
-				<div class="col-md-4">
-					<div class="card rounded" style="height:100%">
-						<div class="card-title mt-3 mx-1">
-							<h4>Digitalizing</h4>
-						</div>
-						<div class="card-body" style="font-weight: 500; font-size:14px">
-							Connect with each other, push boundaries.
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card rounded" style="height:100%" >
-						<div class="card-title mt-3 mx-1">
-							<h4>Collaboration</h4>
-						</div>
-						<div class="card-body" style="font-weight: 500; font-size:14px">
-							Cooperation for solutions with ideas and ideas towards a common vision.
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card rounded" style="height:100%" >
-						<div class="card-title mt-3 mx-1">
-							<h4>Innovation</h4>
-						</div>
-						<div class="card-body" style="font-weight: 500; font-size:14px" >
-							Ideas build, inspire change.
-						</div>
-					</div>
-				</div>
-			</div> 
-	  	</div>
-			
-		</div>
-		<div style="padding-top:55px;padding-bottom:50px;">
-		 <div class="container">
-			<div class="row text-center">
-				<div class="col-lg-6 offset-lg-3 text-center" ><h1 class="font-weight-bold">Our Service</h1>
-				<p></p></div>
-			</div>
-			 
-			<div class="row align-content-center">
-				<div class="col-md-4 offset-lg-1 text-center">
-					<img alt="phone" src="images/mainui-e.png" style="height: 450px;">
-				</div>
-				<div class="col-md-7 ">
-					<div class="services">
-						<div class="row">
-							<div class="col-1">
-								<div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;" class="pt-1 text-center">
-									<h2>1</h2>
-								</div>
-							</div>
-							<div class="col ml-3">
-									<h2>COOLAB<br>(Cooperative Collaboration)</h2>
-							</div>
-
-						</div>
-						<div class="row">
-							<div class="col-1">
-							</div>
-							<div class="col">
-								<div>
-									<p style="font-weight: 500; font-size:14px">
-										An administration and e-commerce service platform as a forum for collaboration between cooperatives and transparency between administrators and members. Supported by mobile app platforms and websites with excellent features such as Myk cooperative, Kopmin, Kopmart, and Kopnews.
-									</p>
-								</div>
-							</div>
-					</div>
-				
-					</div>
-					<div class="services">
-						<div class="row">
-							<div class="col-1">
-								<div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;" class="pt-1 text-center">
-									<h2>2</h2>
-								</div>
-							</div>
-							<div class="col ml-3">
-									<h2>UMKM Support<br>(COMING SOON)</h2>
-							</div>
-
-						</div>
-						<div class="row">
-							<div class="col-1">
-							</div>
-							<div class="col">
-								<div>
-									<p style="font-weight: 500; font-size:14px">
-										Program for supplying raw materials for the production of cooperative business units in collaboration with partners from MSMEs.
-									</p>
-								</div>
-							</div>
-					</div>
-				
-					</div>
-					<div class="services">
-						<div class="row">
-							<div class="col-1">
-								<div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;" class="pt-1 text-center">
-									<h2>3</h2>
-								</div>
-							</div>
-							<div class="col ml-3">
-									<h2>Cooperative for Student<br>(COMING SOON)</h2>
-							</div>
-
-						</div>
-						<div class="row">
-							<div class="col-1">
-							</div>
-							<div class="col">
-								<div>
-									<p style="font-weight: 500; font-size:14px">
-										A cooperative program for students with features that support student business units, savings and loans.
-									</p>
-								</div>
-							</div>
-					</div>
-				
-					</div>
-				</div>
-				
-			</div> 
-	  	</div>
-			
-		</div>
-		<!--<div id="pengguna" class="bg-secondary">
-			 <div class="row text-center " style="padding-top:3%">
-			<div class="col-lg-8 offset-lg-2 text-center">
-				 <div class="card rounded" >
-				<div class="card-body" >
-					<table style="margin:auto;">
-						<tr>
-							
-							<p><span id="visitor" class="font-weight-bold" style="font-size: 300%"></span> orang<br>Telah mengakses situs ini</p>
-						</tr>
-						<tr>
-							<td class="border-right " style="width:200px"><span id="pengguna-aktif" class="font-weight-bold" style="font-size: 300%"></span><br>Pengguna Aktif</td>
-							<td class="border-right " style="width:200px"><span id="koperasi" class="font-weight-bold" style="font-size: 300%"></span><br>Koperasi</td>
-							<td style="width:200px"><span id="wilayah" class="font-weight-bold" style="font-size: 300%"></span><br>Wilayah</td>
-						</tr>
-					</table>
-					   
-				</div>
-				</div>
-			</div>
-			 </div>
-			 <div class="row align-content-center text-center" style="padding-bottom:3%">
-			<div class="col-lg-8 offset-lg-2 text-center" style="padding-top:1.5%">
-				<h5 class="font-weight-bold">Sekarang giliranmu untuk mendaftar eKopz!</h5>
-				 <a class="btn btn-primary btn-lg" href="#" role="button" >Daftarkan Koperasimu</a>
-			</div>
-		</div>
-		</div>-->
-		<!--
-		<div class="container">
-			<div id="pricing" style="padding-top:100px;padding-bottom:100px;">
-				<div class="row" >
-					
-					<div class="col-md-5" style="margin-top:5%">
-						<h5 class="font-weight-bold">
-							Dengan mendaftarkan koperasimu, <br>kamu bisa akses semua fitur<br> unggulan eKopz	
-						</h5>
-						<ul class="text-left" style="list-style-image: url('images/checklist.png');">
-							<li class="pricing-list">Member Mobile Financial Tracking</li>
-							<li class="pricing-list">Dashboard Monitoring Koperasi</li>
-							<li class="pricing-list">eCommerce</li>
-							<li class="pricing-list">Software Pengelola Toko Online</li>
-							<li class="pricing-list">Otomasi Laporan Koperasi</li>
-							<li class="pricing-list">Fitur migrasi data dalam jumlah besar</li>
-							<li class="pricing-list">Dan banyak fitur lainnya!</li>
-						</ul>
-					</div>
-					<div class="col-md-6 text-center offset-md-1" style="margin-top:2.5%">
-						<div class="card shadow" style="border-color:darkgreen">
-							<div>
-								<div class="card-body">
-								<h1 class="font-weight-bold">Gratis selama 1 bulan</h1>
-								<p class="card-text">Yuk coba langsung fitur di Koperasi Digital</p>
-							  </div>
-							  <div class="card-body">
-									<form name="formkoperasi" id="formkoperasi">
-										<input type="text" id="nama" name="nama" class="form-control" placeholder="Nama Anda"><br>
-										<input type="text" id="nama_koperasi" name="nama_koperasi" class="form-control" placeholder="Nama Koperasi Anda"><br>
-										<select class="form-control" id="jenis_koperasi" name="jenis_koperasi">
-											<option disabled selected value>Jenis Koperasi</option>
-											
-										</select>
-										<br>
-										<input type="email" id="email" name="email" class="form-control" placeholder="E-Mail Koperasi Anda" required><br>
-										<textarea id="alamat" name="alamat" rows="3" cols="50" class="form-control" placeholder="Alamat Koperasi" required></textarea><br>
-										<input type="number" id="jumlah_anggota" name="jumlah_anggota" class="form-control" placeholder="Jumlah Anggota Koperasi Anda" required><br>
-										<input type="tel" id="no_telepon" name="no_telepon" class="form-control" placeholder="Nomor Telepon Koperasi Anda" required><br>
-										<!--
-										<input type="text" id="provinsikoperasi" name="provinsikoperasi" class="form-control" placeholder="Provinsi Koperasi Anda"><br>
-										<input type="text" id="kotakoperasi" name="kotakoperasi" class="form-control" placeholder="Kota Koperasi Anda"><br>
-										<input type="text" id="kodeposkoperasi" name="kodeposkoperasi" class="form-control" placeholder="Kode Pos Koperasi Anda"><br>
-										<input type="submit" class="btn-primary btn-lg" value="Daftar" style="width:300px">
-								  </form>
-								</div>
-							</div>
-						</div>
-					</div>
-				  </div>
-
-			</div>
-			<!--
-			<div id="feedback" class="bg-secondary" style="padding-top:50px;padding-bottom:50px;margin-bottom:100px">
-				 <form class="row ">
-					  <div class="col-md-4 offset-md-1" style="margin-top:auto;margin-bottom:auto">
-							<h2 class="font-weight-bold">Berikan feedback Anda disini</h2>
-						  <br>
-						  	<input type="submit" class="btn btn-primary btn-md" style="border-radius:30px;" value="Kirim Feedback">
-						</div>
-					 <div class="offset-md-1 col-md-5" >
-						 <br>
-						 	<input type="text" id="formnama" name="nama" class="form-control" placeholder="Nama Anda"><br>
-						 	<input type="email" id="formemail" name="email" class="form-control" placeholder="E-Mail Anda"><br>
-							<textarea id="formpesan" name="pesan" rows="4" cols="50" class="form-control" placeholder="Pesan Anda"></textarea> <br>
-						</div>
-				   </form>
-			</div>
-		</div>
-		-->
-		<div class="bg-primary" style="padding-top:50px;padding-bottom:50px">
-			<div class="container ">
-			  <div class="row">
-				  <div class="col-md-4 offset-1">
-						<h2 class="font-weight-bold text-light">Penghargaan</h2>
-					 </div>
-					<div class="col-md-7">
-						<div class="row mb-3">
-							<div class="col-6">
-								<p class="text-light">Top 20 Best Startup Demo Day DSLaunchpad 2021</p>
-							</div>
-							<div class="col-6">
-								<p class="text-light">Juara Harapan 1 GEMASTIK XIII 2020</p>
-							</div>
-						</div>
-						<div class="row my-3">
-							<div class="col-6">
-								<p class="text-light">Finalist ASMI 2021</p>
-							</div>
-							<div class="col-6 cen">
-								<p class="text-light">Top 20 Hackathon Google x BRI 2020</p>
-							</div>
-						</div>
-					</div>
-				 <!--
-					<div class="col-md-6">
-						<h2 class="font-weight-bold text-light">Kami senang mendengar feedback anda</h2>
-						<p class="text-light" style="font-size:75%"> Bantu kami meningkatkan pelayanan yang lebih baik.</p>
-					 </div>
-					<div class="col-md-4 text-center offset-md-1" style="margin-top:auto;margin-bottom:auto">
-
-						<a class="btn btn-secondary btn-md" href="#" role="button" style="border-radius: 30px">Kirim Feedback</a>
-					</div>
-				  -->
-				</div>
-			</div>
-		</div>
-  </main>
-	<div class="row bg-secondary" style=";padding-bottom:50px;">
-          <div class="text-center col-lg-2 offset-lg-2 " style="margin-top:auto;margin-bottom:auto;">
-             <img alt="logo ekopz" src="images/logoekopz-01-cutted.png" style="width:100px">
-          </div>
-          <div class="col-lg-2" style="margin-left:25px;padding-top:50px">
-			<p>
-				Kantor StartupHub,<br>
-				Jl. Telekomunikasi No.1,<br>Sukapura,
-				Kec. Dayeuhkolot,<br> Bandung, Jawa Barat <br>
-				40267
-			</p>
-			  <hr>
-			  <p>
-			  +62 811-6692-272
-			  </p>
-			  <hr>
-			  <p>
-			  Admin@ekopz.id
-			  </p>
-			  <hr>
-		</div>
-          <div class="col-lg-2" style="margin-left:25px;padding-top:50px">
-			<a href="https://ekopz.id/">Home</a><hr>
-			<a href="#">About</a><hr>
-			<a href="#demo">Demo</a><hr>
-			<a href="#feedback">Feedback</a><hr>
-		</div>
-          <div class="col-lg-2" style="margin-left:25px;padding-top:50px">
-			<a href="#kopmart">KopMart (Cooming Soon)</a><hr>
-			<a href="#kopnews">KopNews (Cooming Soon)</a><hr>
-			<a href="https://koperasi.ekopz.id/">Kelola Pengurus</a><hr>
-			<a href="https://seller.ekopz.id/">Kelola Toko</a><hr>
-		</div>
+    <nav class="navbar navbar-expand-sm navbar-light bg-white main-nav sticky-top border-white">
+      <a class="navbar-brand" href="https://ekopz.id/"><img src="images/logoekopz-01.png"
+          alt="logo kecil" data-src="images/logoekopz-01.png" id="navbar-logo" style="width:100px"></a>
+      <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"> <a class="nav-link" href="https://ekopz.id/">Home
+              <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="#">About<span
+                class="sr-only">(current)</span></a> </li>
+          <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle"
+              href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"> Features </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item"
+                href="#kopmart">KopMart (Cooming Soon)</a> <a class="dropdown-item"
+                href="#kopnews">KopNews (Coming Soon)</a> <a class="dropdown-item"
+                href="https://seller.ekopz.id/">Kelola Toko</a> <a class="dropdown-item"
+                href="https://koperasi.ekopz.id/">Kelola Pengurus</a>
+              <hr class="dropdown-divider"> <a class="dropdown-item" href="#">Career</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal show" id="more" tabindex="-1" role="dialog" aria-labelledby="more"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold">About us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span> </button> </div>
+          <div class="modal-body"> Cooperatives are well known and have helped
+            many people in Indonesia, which were formed with the same purpose
+            with the principle of kinship and the spirit of cooperation. <br>
+            <br>
+            But they began to be abandoned and forgotten. Compete with
+            increasingly sophisticated online banking and lending systems. eKopz
+            here to embrace cooperatives in Indonesia with the mission of
+            digitizing and collaboration between cooperatives. <br>
+            <br>
+            Because we believe cooperatives can help and prosper more people and
+            SMEs in Indonesia. Because generation Z and beyond have the right to
+            know, cooperatives exist and feel the positive impact. </div>
+          <div class="modal-footer"> <button type="button" class="btn btn-secondary"
+              data-dismiss="modal">Close</button> </div>
+        </div>
+      </div>
     </div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <div class="container">
+      <header class="row bg-white" style="padding-top: 15%;padding-bottom: 15%"
+        id="header">
+        <div class="offset-md-1 col-md-4">
+          <div class="tersier text-center"> <img alt="phone" src="images/mainui-e.png"
+              style="height: 350px; margin-top:25px; object-fit: cover;"> </div>
+        </div>
+        <div class="col-md-6  offset-md-1 py-2">
+          <div id="captions">
+            <h1 class="font-weight-bold" id="header-caption">About us </h1>
+            <br>
+            <p class="lead" style="font-weight: 500" id="the-caption">
+              Cooperatives are well known and have helped many people in
+              Indonesia, which were formed with the same purpose with the
+              principle of kinship and the spirit of cooperation. </p>
+            <button type="button" class="btn btn-secondary" data-toggle="modal"
+              data-target="#more"> See more.. </button> </div>
+        </div>
+        <!--
+		<div class="col-xl-5 offset-md-2" style="margin-top:auto;margin-bottom: auto;">						<div id="captions" class="fade-in">			<h1 class="font-weight-bold" id="header-caption">#KoperasiMasaKini			</h1>			<br>		   <p class="lead" style="font-weight: 500" id="the-caption">	       Kini koperasi dapat diakses dengan mudah, aman, dan dimana saja.<br>	       Yu, gabung bersama kami! </p>			</div>		   <p class="lead">			  <a class="btn btn-primary btn-md" href="#pricing" role="button" style="border-radius:30px">Daftarkan koperasimu</a>				<a class="btn btn-light btn-md download" href="#" role="button" style="border-radius:30px">Download Sekarang</a>			   <!--<a href="http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width:160px"></a>			   <!--<a href="#"><img alt="Download on the App Store" src="images/Download_on_the_App_Store_Badge_ID_RGB_blk_100317.svg" style="width:140px"></a>	      </p>		</div>		<div class="col-xl-4  text-center offset-lg-0">			<img alt="phone left" src="images/kopnews.png" data-src="images/kopnews.png" style="height: 175px;" id="left-phone" class="phone" onClick="switchPhoneLeft()">			<img alt="phone center" src="images/mainui-e.png" data-src="images/mainui-e.png" style="height: 350px;" id="center-phone" class="phone">			<img alt="phone right" src="images/kopmart-e.png" data-src="images/kopmart-e.png" style="height: 175px;" id="right-phone" class="phone" onClick="switchPhoneRight()">		</div>				 		<!--		   <h1 style="font-size:300%;font-weight: 800">#KoperasiMasaKini</h1>		   <p class="lead" style="font-weight: 500">Kini koperasi dapat diakses dengan mudah, aman, dan dimana saja.</p>		   <p class="lead">			  <a class="btn btn-primary btn-lg" href="#" role="button">Daftarkan koperasimu</a>	      </p>-->
+      </header>
+    </div>
+    <main>
+      <div style="padding-top:55px;padding-bottom:50px;background: #E8F1EF">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3 text-center">
+              <h1 class="font-weight-bold">Milestones</h1>
+              <p>This is where our journey begins</p>
+            </div>
+          </div>
+          <div class="row align-content-center mt-3">
+            <div class="col-md-4 offset-md-1"> <img alt="milestone 1" src="images/ml1.png">
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <h3 class="font-weight-bold">2019 - Ideation </h3>
+              <p class="lead" style="font-weight: 500; font-size:14px"> This
+                student startup started with brainstorming by 3 main founders of
+                eKopz. The research was then carried out on target users from
+                eKopz including several cooperatives to the Bandung City
+                Cooperative Office. The eKopz team also validated by
+                participating in several business competitions for feedback from
+                professional mentors in their fields. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:55px;padding-bottom:50px;background: #D8E7E3">
+        <div class="container">
+          <div class="row align-content-center">
+            <div class="col-md-4 offset-md-1"> <img alt="milestone 2" src="images/ml2.png">
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <h3 class="font-weight-bold">2020 - Developing </h3>
+              <p class="lead" style="font-weight: 500; font-size:14px"> Minimum
+                Viable Product eKopz found! The team started prototyping and
+                testing several testers from the cooperative management and the
+                general public. Next, the journey of developing a prototype into
+                complete software begins. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:55px;padding-bottom:50px;background: #CCDFDB">
+        <div class="container">
+          <div class="row align-content-center">
+            <div class="col-md-4 offset-md-1"> <img alt="milestone 3" src="images/ml3.png">
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <h3 class="font-weight-bold">2021 - Launching </h3>
+              <p class="lead" style="font-weight: 500; font-size:14px"> eKopz
+                meets the first cooperative partner, GIAT Cooperative! The
+                application demo was carried out with the administrators to get
+                feedback and adjust feature requirements for our first partner
+                cooperative. We also invited the cooperation discussion meeting
+                with the Bandung Regency Cooperatives and SMEs Service who were
+                interested in our products. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:55px;padding-bottom:50px;background: #BBD2CD">
+        <div class="container">
+          <div class="row align-content-center">
+            <div class="col-md-4 offset-md-1"> <img alt="milestone 4" src="images/ml4.png">
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <h3 class="font-weight-bold">2022 - More Users, More Services </h3>
+              <p class="lead" style="font-weight: 500; font-size:14px"> This
+                year eKopz plans that there will be 50 new cooperative partners
+                registered to go digital with eKopz. Not only that, the MSME
+                support and cooperative services for students are expected to be
+                immediately felt by more people. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:55px;padding-bottom:50px;background: #ADCCC5">
+        <div class="container">
+          <div class="row align-content-center">
+            <div class="col-md-4 offset-md-1"> <img alt="milestone 5" src="images/ml5.png">
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <h3 class="font-weight-bold">2023 - Soon to be Super Cooperative
+                Apps </h3>
+              <p class="lead" style="font-weight: 500; font-size:14px"> In 2023
+                eKopz plans to develop a cooperative digital wallet feature to
+                realize a cooperative experience that can be accessed securely,
+                anytime, and anywhere. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:55px;padding-bottom:50px;">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3 text-center">
+              <h1 class="font-weight-bold">Main Missions</h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="row align-content-center mt-3 mb-5">
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2">
+                  <div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;"
+                    class="pt-1 text-center pt-2"> <img alt="digitalizing" src="images/digitalizing.png">
+                  </div>
+                  <h4>Digitalizing</h4>
+                </div>
+                <div class="card-body" style="font-weight: 500; font-size:14px">
+                  Connect with each other, push boundaries. </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2">
+                  <div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;"
+                    class="pt-1 text-center pt-2"> <img alt="digitalizing" src="images/Collaboration.png">
+                  </div>
+                  <h4>Collaboration</h4>
+                </div>
+                <div class="card-body" style="font-weight: 500; font-size:14px">
+                  Cooperation for solutions with ideas and ideas towards a
+                  common vision. </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2">
+                  <div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;"
+                    class="pt-1 text-center pt-2"> <img alt="innovation" src="images/Innovation.png">
+                  </div>
+                  <h4>Innovation</h4>
+                </div>
+                <div class="card-body" style="font-weight: 500; font-size:14px">
+                  Ideas build, inspire change. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:55px;padding-bottom:50px;">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3 text-center">
+              <h1 class="font-weight-bold">Our Service</h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="row align-content-center">
+            <div class="col-md-4 offset-lg-1 text-center"> <img alt="phone" src="images/mainui-e.png"
+                style="height: 450px;"> </div>
+            <div class="col-md-7 ">
+              <div class="services">
+                <div class="row">
+                  <div class="col-1">
+                    <div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;"
+                      class="pt-1 text-center">
+                      <h2>1</h2>
+                    </div>
+                  </div>
+                  <div class="col ml-3">
+                    <h2>COOLAB<br>
+                      (Cooperative Collaboration)</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1"> </div>
+                  <div class="col">
+                    <div>
+                      <p style="font-weight: 500; font-size:14px"> An
+                        administration and e-commerce service platform as a
+                        forum for collaboration between cooperatives and
+                        transparency between administrators and members.
+                        Supported by mobile app platforms and websites with
+                        excellent features such as Myk cooperative, Kopmin,
+                        Kopmart, and Kopnews. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="services">
+                <div class="row">
+                  <div class="col-1">
+                    <div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;"
+                      class="pt-1 text-center">
+                      <h2>2</h2>
+                    </div>
+                  </div>
+                  <div class="col ml-3">
+                    <h2>UMKM Support<br>
+                      (COMING SOON)</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1"> </div>
+                  <div class="col">
+                    <div>
+                      <p style="font-weight: 500; font-size:14px"> Program for
+                        supplying raw materials for the production of
+                        cooperative business units in collaboration with
+                        partners from MSMEs. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="services">
+                <div class="row">
+                  <div class="col-1">
+                    <div style="background: #F2F7F6;border-radius: 50%;width: 50px;height: 50px;"
+                      class="pt-1 text-center">
+                      <h2>3</h2>
+                    </div>
+                  </div>
+                  <div class="col ml-3">
+                    <h2>Cooperative for Student<br>
+                      (COMING SOON)</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1"> </div>
+                  <div class="col">
+                    <div>
+                      <p style="font-weight: 500; font-size:14px"> A cooperative
+                        program for students with features that support student
+                        business units, savings and loans. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div id="pengguna" class="bg-secondary">
+			 <div class="row text-center " style="padding-top:3%">			<div class="col-lg-8 offset-lg-2 text-center">				 <div class="card rounded" >				<div class="card-body" >					<table style="margin:auto;">						<tr>														<p><span id="visitor" class="font-weight-bold" style="font-size: 300%"></span> orang<br>Telah mengakses situs ini</p>						</tr>						<tr>							<td class="border-right " style="width:200px"><span id="pengguna-aktif" class="font-weight-bold" style="font-size: 300%"></span><br>Pengguna Aktif</td>							<td class="border-right " style="width:200px"><span id="koperasi" class="font-weight-bold" style="font-size: 300%"></span><br>Koperasi</td>							<td style="width:200px"><span id="wilayah" class="font-weight-bold" style="font-size: 300%"></span><br>Wilayah</td>						</tr>					</table>					   				</div>				</div>			</div>			 </div>			 <div class="row align-content-center text-center" style="padding-bottom:3%">			<div class="col-lg-8 offset-lg-2 text-center" style="padding-top:1.5%">				<h5 class="font-weight-bold">Sekarang giliranmu untuk mendaftar eKopz!</h5>				 <a class="btn btn-primary btn-lg" href="#" role="button" >Daftarkan Koperasimu</a>			</div>		</div>		</div>-->
+      <!--
+		<div class="container">			<div id="pricing" style="padding-top:100px;padding-bottom:100px;">				<div class="row" >										<div class="col-md-5" style="margin-top:5%">						<h5 class="font-weight-bold">							Dengan mendaftarkan koperasimu, <br>kamu bisa akses semua fitur<br> unggulan eKopz							</h5>						<ul class="text-left" style="list-style-image: url('images/checklist.png');">							<li class="pricing-list">Member Mobile Financial Tracking</li>							<li class="pricing-list">Dashboard Monitoring Koperasi</li>							<li class="pricing-list">eCommerce</li>							<li class="pricing-list">Software Pengelola Toko Online</li>							<li class="pricing-list">Otomasi Laporan Koperasi</li>							<li class="pricing-list">Fitur migrasi data dalam jumlah besar</li>							<li class="pricing-list">Dan banyak fitur lainnya!</li>						</ul>					</div>					<div class="col-md-6 text-center offset-md-1" style="margin-top:2.5%">						<div class="card shadow" style="border-color:darkgreen">							<div>								<div class="card-body">								<h1 class="font-weight-bold">Gratis selama 1 bulan</h1>								<p class="card-text">Yuk coba langsung fitur di Koperasi Digital</p>							  </div>							  <div class="card-body">									<form name="formkoperasi" id="formkoperasi">										<input type="text" id="nama" name="nama" class="form-control" placeholder="Nama Anda"><br>										<input type="text" id="nama_koperasi" name="nama_koperasi" class="form-control" placeholder="Nama Koperasi Anda"><br>										<select class="form-control" id="jenis_koperasi" name="jenis_koperasi">											<option disabled selected value>Jenis Koperasi</option>																					</select>										<br>										<input type="email" id="email" name="email" class="form-control" placeholder="E-Mail Koperasi Anda" required><br>										<textarea id="alamat" name="alamat" rows="3" cols="50" class="form-control" placeholder="Alamat Koperasi" required></textarea><br>										<input type="number" id="jumlah_anggota" name="jumlah_anggota" class="form-control" placeholder="Jumlah Anggota Koperasi Anda" required><br>										<input type="tel" id="no_telepon" name="no_telepon" class="form-control" placeholder="Nomor Telepon Koperasi Anda" required><br>										<!--										<input type="text" id="provinsikoperasi" name="provinsikoperasi" class="form-control" placeholder="Provinsi Koperasi Anda"><br>										<input type="text" id="kotakoperasi" name="kotakoperasi" class="form-control" placeholder="Kota Koperasi Anda"><br>										<input type="text" id="kodeposkoperasi" name="kodeposkoperasi" class="form-control" placeholder="Kode Pos Koperasi Anda"><br>										<input type="submit" class="btn-primary btn-lg" value="Daftar" style="width:300px">								  </form>								</div>							</div>						</div>					</div>				  </div>			</div>			<!--			<div id="feedback" class="bg-secondary" style="padding-top:50px;padding-bottom:50px;margin-bottom:100px">				 <form class="row ">					  <div class="col-md-4 offset-md-1" style="margin-top:auto;margin-bottom:auto">							<h2 class="font-weight-bold">Berikan feedback Anda disini</h2>						  <br>						  	<input type="submit" class="btn btn-primary btn-md" style="border-radius:30px;" value="Kirim Feedback">						</div>					 <div class="offset-md-1 col-md-5" >						 <br>						 	<input type="text" id="formnama" name="nama" class="form-control" placeholder="Nama Anda"><br>						 	<input type="email" id="formemail" name="email" class="form-control" placeholder="E-Mail Anda"><br>							<textarea id="formpesan" name="pesan" rows="4" cols="50" class="form-control" placeholder="Pesan Anda"></textarea> <br>						</div>				   </form>			</div>		</div>		-->
+      <div class="bg-primary" style="padding-top:50px;padding-bottom:50px">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-4 offset-1">
+              <h2 class="font-weight-bold text-light">Penghargaan</h2>
+            </div>
+            <div class="col-md-7">
+              <div class="row mb-3">
+                <div class="col-6">
+                  <p class="text-light">Top 20 Best Startup Demo Day DSLaunchpad
+                    2021</p>
+                </div>
+                <div class="col-6">
+                  <p class="text-light">Juara Harapan 1 GEMASTIK XIII 2020</p>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-6">
+                  <p class="text-light">Finalist ASMI 2021</p>
+                </div>
+                <div class="col-6 cen">
+                  <p class="text-light">Top 20 Hackathon Google x BRI 2020</p>
+                </div>
+              </div>
+            </div>
+            <!--
+					<div class="col-md-6">						<h2 class="font-weight-bold text-light">Kami senang mendengar feedback anda</h2>						<p class="text-light" style="font-size:75%"> Bantu kami meningkatkan pelayanan yang lebih baik.</p>					 </div>					<div class="col-md-4 text-center offset-md-1" style="margin-top:auto;margin-bottom:auto">						<a class="btn btn-secondary btn-md" href="#" role="button" style="border-radius: 30px">Kirim Feedback</a>					</div>				  -->
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:55px;padding-bottom:50px;">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3 text-center">
+              <h1 class="font-weight-bold">Our Team</h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="row align-content-center mt-3 mb-5">
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img class="mb-2"
+                    alt="team" src="images/teams/Lifi_cropped.jpg" style="width:100%; border-radius:20px;">
+                  <h4>Alifiah Putri</h4>
+                  <b>CEO</b> </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img
+                    class="mb-2" alt="team" src="images/teams/Aldi_cropped.png"
+                    style="width:100%; border-radius:20px;">
+                  <h4>Aldy Naufal A</h4>
+                  <b>CTO</b> </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img class="mb-2"
+                    alt="team" src="images/teams/Yumna_cropped.jpeg" style="width:100%; border-radius:20px;">
+                  <h4>Yumna Tsamaroh</h4>
+                  <b>CMO</b> </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align-content-center mt-3 mb-5">
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img class="mb-2"
+                    alt="team" src="images/teams/Zaki_cropped.jpg" style="width:100%; border-radius:20px;">
+                  <h4>Muhammad Zaki Alkhairi</h4>
+                  <b>COO</b> </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img class="mb-2"
+                    alt="team" src="images/teams/Firman_cropped.jpeg" style="width:100%; border-radius:20px;">
+                  <h4>Firman Edi Saputra</h4>
+                  <b>CFO</b> </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img class="mb-2"
+                    alt="team" src="images/teams/Kamil_cropped.jpg" style="width:100%; border-radius:20px;">
+                  <h4>Muhammad Haykal Kamil</h4>
+                  <b>Backend Dev</b> </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align-content-center mt-3 mb-5">
+            <div class="col-md-4 offset-md-2">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img class="mb-2"
+                    alt="team" src="images/teams/Haviza_cropped.png" style="width:100%; border-radius:20px;">
+                  <h4>Haviza Aufa Labiba Irfan</h4>
+                  <b>UI/UX Designer</b> </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card rounded" style="height:100%">
+                <div class="card-title mt-3 mx-2 text-center"> <img class="mb-2"
+                    alt="team" src="images/teams/Adit.jfif" style="width:100%; border-radius:20px;">
+                  <h4>Aditya Aji</h4>
+                  <b>Graphic Designer</b> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="row bg-secondary" style=";padding-bottom:50px;">
+      <div class="text-center col-lg-2 offset-lg-2 " style="margin-top:auto;margin-bottom:auto;">
+        <img alt="logo ekopz" src="images/logoekopz-01-cutted.png" style="width:100px">
+      </div>
+      <div class="col-lg-2" style="margin-left:25px;padding-top:50px">
+        <p> Kantor StartupHub,<br>
+          Jl. Telekomunikasi No.1,<br>
+          Sukapura, Kec. Dayeuhkolot,<br>
+          Bandung, Jawa Barat <br>
+          40267 </p>
+        <hr>
+        <p> +62 811-6692-272 </p>
+        <hr>
+        <p> Admin@ekopz.id </p>
+        <hr> </div>
+      <div class="col-lg-2" style="margin-left:25px;padding-top:50px"> <a href="https://ekopz.id/">Home</a>
+        <hr> <a href="#">About</a>
+        <hr> <a href="#demo">Demo</a>
+        <hr> <a href="#feedback">Feedback</a>
+        <hr> </div>
+      <div class="col-lg-2" style="margin-left:25px;padding-top:50px"> <a href="#kopmart">KopMart
+          (Cooming Soon)</a>
+        <hr> <a href="#kopnews">KopNews (Cooming Soon)</a>
+        <hr> <a href="https://koperasi.ekopz.id/">Kelola Pengurus</a>
+        <hr> <a href="https://seller.ekopz.id/">Kelola Toko</a>
+        <hr> </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/observer.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/observer.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.3.1.js"></script>
-	  <script>
+    <script>
 		  /*
 	  var leftPhone = document.querySelector("#left-phone");
 		var centerPhone = document.querySelector("#center-phone");
@@ -616,7 +567,7 @@
 
 		}*/
 	  </script>
-	  <script src="js/fetching.js"></script>
-  <!--<script src="js/animationsOnClick.js"></script>-->
+    <script src="js/fetching.js"></script>
+    <!--<script src="js/animationsOnClick.js"></script>-->
   </body>
 </html>
